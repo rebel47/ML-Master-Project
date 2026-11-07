@@ -1,0 +1,12 @@
+Pillow>=10.4,<13
+pandas>=2.2,<3
+lxml>=5.2,<7
+pytesseract>=0.3.13,<0.4
+jiwer>=3.0,<5
+tqdm>=4.66,<5
+pytest>=8,<10
+jupyterlab
+ipykernel
+numpy
+scipy
+matplotlib

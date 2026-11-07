@@ -1,0 +1,24 @@
+# Publish only the agreed submission files. Local datasets and environments stay local.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/notebooks/
+!/results/
+
+/notebooks/*
+!/notebooks/01_dataset_exploration.ipynb
+!/notebooks/02_ocr_baseline.ipynb
+!/notebooks/03_vlm_correction.ipynb
+!/notebooks/04_evaluation.ipynb
+
+/results/*
+!/results/tesseract_baseline.csv
+!/results/vlm_full_results.csv
+!/results/selective_comparison.csv
+!/results/regression_analysis.csv
+!/results/figures/
+
+/results/figures/*
+!/results/figures/cer_vs_vlm_calls.png
+!/results/figures/vlm_regression_analysis.png
